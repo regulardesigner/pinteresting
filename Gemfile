@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # bootstrap gem
 gem 'bootstrap-sass'
+# rails install basic gem without comments lines
 gem 'rails', '4.1.5'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
