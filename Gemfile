@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # bootstrap gem
 gem 'bootstrap-sass'
 # rails install basic gem without comments lines
