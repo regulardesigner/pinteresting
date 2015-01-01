@@ -13,10 +13,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
+# sqlite3 fonctionne bien avec Rails parcontre sur le serveur Heroku postgre fonctionne mieux.
+# sqlite3 pour la version de dev et test sur ma machine
 group :development, :test do
      gem 'sqlite3'
 end
-
+# pg = postgre pour la version de production sur heroku branch master
 group :production do
      gem 'pg'
      gem 'rails_12factor'
