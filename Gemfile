@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+# ruby '2.0.0'
 # bootstrap gem
 gem 'bootstrap-sass'
+#devise
+gem 'devise', '~> 3.4.1'
 # rails install basic gem without comments lines
 gem 'rails', '4.1.5'
 gem 'sass-rails', '~> 4.0.3'
